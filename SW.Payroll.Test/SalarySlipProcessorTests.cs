@@ -584,8 +584,6 @@ namespace SW.Payroll.Tests
             Assert.Equal(actual, expected);
         }
 
-
-
         [Fact]
         public void CalculateNetSalary_EmployeeIsNull_ThrowArgumentNullException()
         {
